@@ -17,7 +17,7 @@ body {padding:20px; background:#f8fafc; color:#0f172a}
 <div class="container">
 <div class="d-flex align-items-center mb-3">
 <h3 class="me-auto">Status Laporan UB — Layanan Kesehatan (Jan 2026)</h3>
-<div class="small-note">Summary Review Update 19 Januari 2026</div>
+<div class="small-note">Summary Review Update 21 Januari 2026</div>
 </div>
 
 <div class="row g-3">
@@ -84,11 +84,11 @@ body {padding:20px; background:#f8fafc; color:#0f172a}
 Chart.register(ChartDataLabels);
 
 const categories = [
-{ key: 'Belum Lapor', items: ['KC Jember','KC Manado','KC Medan','KC Semarang','KC Solo','KCP Tangerang'], color: '#0ea5a4' },
+{ key: 'Belum Lapor', items: ['KC Jember','KC Manado','KC Medan','KC Semarang'], color: '#0ea5a4' },
 { key: 'Hanya Upload Dokumentasi saja', items: ['KC Semarang','KC Medan'], color: '#f59e0b' },
 { key: 'Lapor tanpa link dokumentasi', items: ['KC Bogor'], color: '#6b7280' },
 { key: 'Report dokumentasi tidak sesuai', items: ['KC Bogor','KC Malang','KC Sukabumi'], color: '#ef4444' },
-{ key: 'Lapor lengkap & sesuai', items: ['KC Cirebon','KC Garut','KC Jember','KC Madiun','KC Pekanbaru','KCP Wates','KC Sukabumi','KC Lampung','KC Makassar','KC Denpasar','KC Malang','KC Surabaya', 'KC Palembang'], color: '#16a34a' }
+{ key: 'Lapor lengkap & sesuai', items: ['KC Cirebon','KC Garut','KC Jember','KC Madiun','KC Pekanbaru','KCP Wates','KC Sukabumi','KC Lampung','KC Makassar','KC Denpasar','KC Malang','KC Surabaya','KC Solo', 'KC Palembang'], color: '#16a34a' }
 ];
 
 const counts = categories.map(c => c.items.length);
@@ -185,5 +185,6 @@ resetView();
 </script>
 </body>
 </html>
+
 
 
